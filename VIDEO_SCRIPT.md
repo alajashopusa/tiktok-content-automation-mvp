@@ -1,93 +1,91 @@
-# VIDEO SCRIPT - TikTok Content Automation Demo
-
-## Duration: 60-90 seconds
+# VIDEO SCRIPT - TikTok API Integration Demo
+## 10 Slides x 5 seconds = 50 seconds total
 
 ---
 
-### [SCENE 1: INTRO - 5 seconds]
-**[Show website homepage]**
+### [SLIDE 1: INTRO - 5 seconds]
+**[Background: TikTok gradient colors with 🎵 logo]**
 
 *Narration:*
-"Hi, I'm going to show you how ALaJaShop USA automates your content creation from TikTok Shop to Pinterest and YouTube Shorts."
+"Hi, I'm going to show you our TikTok Integration Demo for ALaJaShop USA."
 
 ---
 
-### [SCENE 2: WEBSITE OVERVIEW - 10 seconds]
-**[Scroll through homepage, show features]**
+### [SLIDE 2: THE PROBLEM - 5 seconds]
+**[Black background with white text]**
 
 *Narration:*
-"This is our automated content platform. We help e-commerce sellers transform their TikTok Shop products into engaging video reels."
-
-**[Point to features]**
-"Key features include TikTok Shop integration, auto reel generation, Pinterest publishing, and YouTube Shorts distribution."
+"The Problem: E-commerce sellers spend hours manually creating content for Pinterest and YouTube from their TikTok Shop products."
 
 ---
 
-### [SCENE 3: HOW IT WORKS - 15 seconds]
-**[Scroll to "How It Works" section]**
+### [SLIDE 3: OUR SOLUTION - 5 seconds]
+**[Show TikTok, Pinterest, YouTube logos]**
 
 *Narration:*
-"Let me explain the workflow:"
-
-"Step 1: Connect - We connect to your TikTok Shop API and fetch your product catalog."
-
-"Step 2: Capture - Our system automatically captures product images and details."
-
-"Step 3: Create - Using MoviePy, we generate professional 9:16 video reels with your product images."
-
-"Step 4: Publish - Finally, we automatically publish to Pinterest boards and YouTube Shorts."
+"Our Solution: Full TikTok API Integration that automates the entire content creation process."
 
 ---
 
-### [SCENE 4: TECHNICAL DEMO - 20 seconds]
-**[Show GitHub repository]**
+### [SLIDE 4: STEP 1 OAUTH - 5 seconds]
+**[Show OAuth API code]**
 
 *Narration:*
-"Here's our technical implementation. We use Python with MoviePy for video generation."
-
-**[Show key files]**
-"Main modules include:
-- tiktok_api.py - Connects to TikTok Shop API
-- image_capture.py - Downloads product images  
-- video_builder.py - Creates 9:16 video reels
-- publishers/ - Handles Pinterest and YouTube publishing"
+"Step 1: OAuth. Users authenticate with TikTok using the official OAuth 2.0 flow."
 
 ---
 
-### [SCENE 5: API INTEGRATION - 10 seconds]
-**[Show code or API diagram]**
+### [SLIDE 5: STEP 2 FETCH PRODUCTS - 5 seconds]
+**[Show product list API]**
 
 *Narration:*
-"We integrate with TikTok's Product API to fetch catalog data, and use Pinterest and YouTube APIs for publishing. All with proper OAuth authentication."
+"Step 2: We fetch the product list from TikTok Shop API using the product endpoint."
 
 ---
 
-### [SCENE 6: LIVE PLATFORM - 10 seconds]
-**[Show deployed website]**
+### [SLIDE 6: STEP 3 CAPTURE IMAGES - 5 seconds]
+**[Show image download process]**
 
 *Narration:*
-"The platform is live and ready. You connect your shop, and we handle the rest automatically."
+"Step 3: Our system captures and downloads product images directly from TikTok's CDN."
 
 ---
 
-### [SCENE 7: CALL TO ACTION - 5 seconds]
-**[Show website with CTA]**
+### [SLIDE 7: STEP 4 CREATE REELS - 5 seconds]
+**[Show MoviePy code example]**
 
 *Narration:*
-"Ready to scale your business? Visit alajashop.com to get started."
+"Step 4: Using MoviePy, we generate professional 9:16 video reels from the product images."
 
 ---
 
-### [END CARD - 5 seconds]
-**[Show logo and contact]**
+### [SLIDE 8: STEP 5 PUBLISH - 5 seconds]
+**[Show Pinterest and YouTube icons]**
 
-"ALaJaShop USA - Automating your content strategy"
+*Narration:*
+"Step 5: Finally, we publish automatically to Pinterest boards and YouTube Shorts."
 
 ---
 
-## TIPS FOR RECORDING:
-- Keep each scene 5-10 seconds
-- Speak clearly and at a steady pace
-- Show the URL and key elements on screen
-- Use simple language
-- End with a clear call to action
+### [SLIDE 9: LIVE DEMO - 5 seconds]
+**[Show alajashop.com in browser]**
+
+*Narration:*
+"Here's the live demo at alajashop.com - the platform is fully functional."
+
+---
+
+### [SLIDE 10: CTA - 5 seconds]
+**[Call to action with TikTok gradient]**
+
+*Narration:*
+"Ready to scale your business? Connect your TikTok Shop today at alajashop.com"
+
+---
+
+## NOTES FOR RECORDING:
+- Speak clearly and at steady pace
+- Each slide = 5 seconds minimum
+- Total video: 50 seconds
+- Optional: Add background music
+- Show actual demo running in background for slides 9-10
