@@ -1,0 +1,11 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+outputs/
+.env
+.env.*
+logs/

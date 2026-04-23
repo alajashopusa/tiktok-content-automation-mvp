@@ -1,0 +1,27 @@
+name: TikTok Reel Auto-Publish
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 9 * * *' # diario a las 09:00
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Run automation
+        env:
+          TIKTOK_TOKEN: ${{ secrets.TIKTOK_TOKEN }}
+          PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+        run: |
+          python src/main.py --shop-id demo-shop --board-id 1234567890 --youtube-category Shorts --output-dir outputs
