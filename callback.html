@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OAuth Callback</title>
+</head>
+<body>
+  <h1>Authorization Successful!</h1>
+  <p>Copy the code below:</p>
+  <textarea id="code" style="width:100%;height:100px;font-size:16px;"></textarea>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('code').value = params.get('code') || 'No code found';
+  </script>
+</body>
+</html>
